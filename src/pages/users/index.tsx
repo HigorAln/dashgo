@@ -13,7 +13,6 @@ import { GetServerSideProps } from 'next';
 export default function UserList(){
   const [page,setPage] = useState(1)
   const {data, isLoading,isFetching, error, refetch} = useUsers(page) // possivel passar 2 parametro para o useUsers para renderizar via server side 
-  
   const isWideVersion = useBreakpointValue({
     base:false,
     lg: true,
@@ -138,12 +137,12 @@ export default function UserList(){
   );
 }
 
-export const getServerSideProps: GetServerSideProps= async ()=>{
-  const { users, totalCount } = await getUSers(1)
+// export const getServerSideProps: GetServerSideProps= async ()=>{
+//   const { users, totalCount } = await getUSers(1)
 
-  return{
-    props:{
-      initialQuery: users
-    }
-  }
-}
+//   return{
+//     props:{
+//       //initialQuery: users
+//     }
+//   }
+// }
