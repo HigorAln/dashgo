@@ -21,14 +21,14 @@
 
 <h2 id="dart-about">About</h2>
 
-Este projeto foi foi feito junto com a equipe da rocketseat, com o professor @diegofernandes, o projeto e um dashboard para constrole de usuarios, automacao de features, e cobertura de usuarios com visualizacao de graficos.
+This project was done together with the rocketseat team, with professor @diegofernandes, the project is a dashboard for user control, feature automation, and user coverage with graphics visualization.
 
 <h2 id="rocket-technologies">Technologies</h2>
 
 The following tools were used in this project:
 
 - [Chakra-ui](https://chakra-ui.com/)
-- [Next.js](hhttps://nextjs.org/)
+- [Next.js](https://nextjs.org/)
 - [React](https://pt-br.reactjs.org/)
 - [Apexcharts](https://apexcharts.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
@@ -38,7 +38,7 @@ The following tools were used in this project:
 
 <h2 id="white_check_mark-requirements">Requirements</h2>
 
-Antes de mais nada voce vai preciasr do [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalados.
+First of all you will need [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 <h2 id="checkered_flag-starting">Starting</h2>
 
@@ -47,13 +47,16 @@ Antes de mais nada voce vai preciasr do [Git](https://git-scm.com) e [Node](http
 $ git clone https://github.com/higoraln/dashgo
 
 # Access
-$ cd my-app
+$ cd dashgo
 
 # Install dependencies
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
+
+# Or
+$ yarn build && yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
